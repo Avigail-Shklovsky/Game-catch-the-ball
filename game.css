@@ -1,0 +1,21 @@
+th,
+td {
+  padding: 15px;
+}
+
+table,
+th,
+td {
+  /* border: 2px solid black; */
+  border-collapse: collapse;
+}
+
+#tableContainer {
+  margin: auto;
+  width: 50%;
+}
+
+#title{
+  text-align: center;
+
+}
