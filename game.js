@@ -114,7 +114,7 @@ function addBall() {
     if (board[randomRow][randomCol] != 1) {
         board[randomRow][randomCol] = 1;
         targetCell.appendChild(ball);
-        totalBallsAdded++
+        totalBallsAdded++;
     }
 }
 
@@ -158,3 +158,8 @@ function restartGame() {
 }
 // createTable(10, 12);
 // startGame()
+
+
+function check(){
+    return false;
+}
